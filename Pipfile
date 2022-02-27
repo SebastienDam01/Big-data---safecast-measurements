@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+cassandra-driver = ">=3.25,<4"
+matplotlib = "*"
+seaborn = "*"
+scikit-learn = "*"
+scipy = "*"
+numpy = "*"
+pandas = "*"
+requests = "*"
+pytest = "*"
+ipython = "*"
+time_uuid = "*"
+pyspark = ">=3.1.2,<3.2"
+notebook = ">=6.4,<7"
+jupyterlab = ">=3.0.16,<4"
+
+
+[requires]
+python_version = "3.8"
